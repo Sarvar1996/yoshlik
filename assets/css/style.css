@@ -1684,7 +1684,7 @@ textarea.form-control {
 .heading .heading--title {
 	font-family: 'Poppins', sans-serif;
 	color: #222222;
-	font-size: 36px;
+	font-size: 35px;
 	font-weight: 400;
 	line-height: 50px;
 	margin-bottom: 27px;
@@ -1834,7 +1834,10 @@ textarea.form-control {
 	display: inline-block;
 }
 
-.logo-light{
+.logo-light {
+	height: 48px;
+}
+.logo-dark{
 	height: 48px;
 }
 
