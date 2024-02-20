@@ -1057,7 +1057,9 @@ section {
 	-o-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
-
+.services{
+	margin-top: 100px;
+}
 .height-700 {
 	height: 700px !important;
 }
@@ -1830,15 +1832,15 @@ textarea.form-control {
 }
 
 .header-light .navbar .logo-dark {
-	height: 48px;
+	height: 78px;
 	display: inline-block;
 }
 
 .logo-light {
-	height: 48px;
+	height: 78px;
 }
 .logo-dark{
-	height: 48px;
+	height: 78px;
 }
 
 .header-light .navbar .logo-light {
@@ -1948,6 +1950,10 @@ textarea.form-control {
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) and (max-width: 479px) {
+	.info1{
+		height: 150px;
+		width: 350px;
+	}
 
 .header .navbar {
 	top: 0;
@@ -2168,10 +2174,9 @@ li a:hover,
 .hero .hero--bio {
 	color: #ffffff;
 	font-family: 'Lora', serif;
-	font-size: 18px;
+	font-size: 24px;
 	font-weight: 400;
 	line-height: 28px;
-	margin-bottom: 53px;
 }
 
 .hero--action .form-control {
