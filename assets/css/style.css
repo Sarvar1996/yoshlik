@@ -2538,7 +2538,18 @@ li a:hover,
 	margin-bottom: 30px;
 	display: block;
 }
-
+.footer-5 .contacts {
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	height: 24px;
+} 
+.footer-5 .contacts i {
+	font-size: 15px;
+	color: #ffffff;
+	display: block;
+	margin-right: 10px;
+} 
 .footer-5 .widget--info-box h4 {
 	color: #ffffff;
 	font-size: 18px;
