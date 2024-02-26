@@ -1954,7 +1954,10 @@ textarea.form-control {
 		height: 150px;
 		width: 350px;
 	}
-
+	.info2{
+		height: 150px;
+		width: 350px;
+	}
 .header .navbar {
 	top: 0;
 }
@@ -2396,7 +2399,6 @@ li a:hover,
 	font-weight: 400;
 	line-height: 1;
 	margin-bottom: 13px;
-	text-transform: capitalize;
 }
 
 .feature-panel .feature--content p {

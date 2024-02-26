@@ -490,6 +490,7 @@ const AllPortfolio = [
       });
     });
   }
+
   protfolioFinder.on('click', function (e) {
     e.preventDefault();
     var $selector = $(this).attr('data-filter');
@@ -506,6 +507,7 @@ const AllPortfolio = [
       return false;
     });
   });
+
   function createPortfolioItem(details) {
     const { imageSrc, className, size, title, titleDetail } = details;
     var colDiv = $('<div>').addClass(
@@ -545,9 +547,11 @@ const AllPortfolio = [
   var portfolioContainer = $('#portfolio-all');
 
   AllPortfolio.map((portfolioItem) => {
-    console.log(portfolioItem);
     return portfolioContainer.append(createPortfolioItem(portfolioItem));
   });
+
+  const infoImage = document.body.getElementsByClassName('info1').on();
+  console.log(infoImage);
   /* ------------------  SCROLL TO ------------------ */
 
   var aScroll = $('a[data-scroll="scrollTo"]');
