@@ -14,6 +14,289 @@
 	11. PROGRESS BAR
 	
 */
+const AllPortfolio = [
+  {
+    className: 'filter-building',
+    imageSrc: 'assets/images/portfolio/constructions/1.jpg',
+    size: '134,02 м2 + терраса 19,97 м2 и крыльцо 6,01 м2',
+    title: 'Этажность',
+    titleDetail: 'Двухэтажный',
+  },
+  {
+    className: 'filter-building',
+    imageSrc: 'assets/images/portfolio/constructions/2.jpg',
+    size: '114,54 м2 + терраса 33,40 м2',
+    title: 'Этажность',
+    titleDetail: 'Двухэтажный',
+  },
+  {
+    className: 'filter-building',
+    imageSrc: 'assets/images/portfolio/constructions/3.jpg',
+    size: '255,30 м2 +терраса 67,40 м2',
+    title: 'Этажность',
+    titleDetail: 'Двухэтажный',
+  },
+  {
+    className: 'filter-building',
+    imageSrc: 'assets/images/portfolio/constructions/4.jpg',
+    size: '165,00 м2 + терраса 40,40 м2 и крыльцо 9,10 м2',
+    title: 'Этажность',
+    titleDetail: 'Двухэтажный',
+  },
+  {
+    className: 'filter-building',
+    imageSrc: 'assets/images/portfolio/constructions/5.jpg',
+    size: '40,40 м2 + терраса 8,10 м2',
+    title: 'Этажность',
+    titleDetail: 'Двухэтажный',
+  },
+  {
+    className: 'filter-building',
+    imageSrc: 'assets/images/portfolio/constructions/6.jpg',
+    size: '34,96 м2 + терраса 10,08 м2',
+    title: 'Этажность',
+    titleDetail: 'Двухэтажный',
+  },
+  {
+    className: 'filter-building',
+    imageSrc: 'assets/images/portfolio/constructions/7.jpg',
+    size: '121,64 м2 + терраса 71,01 м2',
+    title: 'Этажность',
+    titleDetail: 'Двухэтажный',
+  },
+  {
+    className: 'filter-building',
+    imageSrc: 'assets/images/portfolio/constructions/8.jpg',
+    size: '145,12 м2 + терраса 37,77 м2',
+    title: 'Этажность',
+    titleDetail: 'Двухэтажный',
+  },
+  {
+    className: 'filter-building',
+    imageSrc: 'assets/images/portfolio/constructions/9.jpg',
+    size: '111,98 м2 + терраса 27,12 м2',
+    title: 'Этажность',
+    titleDetail: 'Двухэтажный',
+  },
+  {
+    className: 'filter-building',
+    imageSrc: 'assets/images/portfolio/constructions/10.jpg',
+    size: '100,30 м2 + терраса 27,90 м2 и крыльцо 7,10 м2',
+    title: 'Этажность',
+    titleDetail: 'Двухэтажный',
+  },
+  {
+    className: 'filter-construction',
+    imageSrc: 'assets/images/portfolio/constructions/11.jpg',
+    size: '42,00 м2',
+    title: 'Этажность',
+    titleDetail: 'Двухэтажный',
+  },
+  {
+    className: 'filter-construction',
+    imageSrc: 'assets/images/portfolio/constructions/12.jpg',
+    size: '32,40 м2',
+    title: 'Этажность',
+    titleDetail: 'Двухэтажный',
+  },
+  {
+    className: 'filter-construction',
+    imageSrc: 'assets/images/portfolio/constructions/13.jpg',
+    size: '56,57 м2 + терраса 26,27 м2    ',
+    title: 'Этажность',
+    titleDetail: 'Двухэтажный',
+  },
+  {
+    className: 'filter-construction',
+    imageSrc: 'assets/images/portfolio/constructions/14.jpg',
+    size: '120,46 м2 + терраса 25,84 м2',
+    title: 'Этажность',
+    titleDetail: 'Двухэтажный',
+  },
+  {
+    className: 'filter-construction',
+    imageSrc: 'assets/images/portfolio/constructions/15.jpg',
+    size: '120,51 м2',
+    title: 'Этажность',
+    titleDetail: 'Двухэтажный',
+  },
+  {
+    className: 'filter-construction',
+    imageSrc: 'assets/images/portfolio/constructions/16.jpg',
+    size: '139,16 м2',
+    title: 'Этажность',
+    titleDetail: 'Двухэтажный',
+  },
+  {
+    className: 'filter-construction',
+    imageSrc: 'assets/images/portfolio/constructions/17.jpg',
+    size: '118,98 м2 ',
+    title: 'Этажность',
+    titleDetail: 'Двухэтажный',
+  },
+  {
+    className: 'filter-construction',
+    imageSrc: 'assets/images/portfolio/constructions/18.jpg',
+    size: '88,76 м2',
+    title: 'Этажность',
+    titleDetail: 'Двухэтажный',
+  },
+  {
+    className: 'filter-construction',
+    imageSrc: 'assets/images/portfolio/constructions/19.jpg',
+    size: '139,46 м2',
+    title: 'Этажность',
+    titleDetail: 'Двухэтажный',
+  },
+  {
+    className: 'filter-construction',
+    imageSrc: 'assets/images/portfolio/constructions/20.jpg',
+    size: '100,58 м2',
+    title: 'Этажность',
+    titleDetail: 'Двухэтажный',
+  },
+  {
+    className: 'filter-planning',
+    imageSrc: 'assets/images/portfolio/constructions/21.jpg',
+    size: '178,10 м2    ',
+    title: 'Этажность',
+    titleDetail: 'Двухэтажный',
+  },
+  {
+    className: 'filter-planning',
+    imageSrc: 'assets/images/portfolio/constructions/22.jpg',
+    size: '149,82 м2 + терраса 9,03 м2 и крыльцо 3,71 м2    ',
+    title: 'Этажность',
+    titleDetail: 'Одноэтажный + мансарда',
+  },
+  {
+    className: 'filter-planning',
+    imageSrc: 'assets/images/portfolio/constructions/23.jpg',
+    size: '83,70 м2    ',
+    title: 'Этажность',
+    titleDetail: 'Одноэтажный',
+  },
+  {
+    className: 'filter-terasa',
+    imageSrc: 'assets/images/portfolio/constructions/24.jpg',
+    size: '7,5 м2    ',
+    title: 'Размеры',
+    titleDetail: '2500 x 3000 мм',
+  },
+  {
+    className: 'filter-terasa',
+    imageSrc: 'assets/images/portfolio/constructions/25.jpg',
+    size: '20 м2    ',
+    title: 'Размеры',
+    titleDetail: '5000 x 0000 мм',
+  },
+  {
+    className: 'filter-terasa',
+    imageSrc: 'assets/images/portfolio/constructions/26.jpg',
+    size: '34 м2    ',
+    title: 'Размеры',
+    titleDetail: '8500 x 4000 мм',
+  },
+  {
+    className: 'filter-terasa',
+    imageSrc: 'assets/images/portfolio/constructions/27.jpg',
+    size: '34 м2    ',
+    title: 'Размеры',
+    titleDetail: '8500 x 4000 мм',
+  },
+  {
+    className: 'filter-terasa',
+    imageSrc: 'assets/images/portfolio/constructions/28.jpg',
+    size: '12 м2',
+    title: 'Размеры',
+    titleDetail: '4000 x 3000 мм',
+  },
+  {
+    className: 'filter-terasa',
+    imageSrc: 'assets/images/portfolio/constructions/29.jpg',
+    size: '18 м2',
+    title: 'Размеры',
+    titleDetail: '3000 x 6000 мм',
+  },
+  {
+    className: 'filter-terasa',
+    imageSrc: 'assets/images/portfolio/constructions/30.jpg',
+    size: '12 м2',
+    title: 'Размеры',
+    titleDetail: '3000 x 4000 мм',
+  },
+  {
+    className: 'filter-garage',
+    imageSrc: 'assets/images/portfolio/constructions/31.jpg',
+    size: '35,40 м2',
+    title: 'Этажность',
+    titleDetail: 'Одноэтажный',
+  },
+  {
+    className: 'filter-garage',
+    imageSrc: 'assets/images/portfolio/constructions/32.jpg',
+    size: '33,06 м2',
+    title: 'Этажность',
+    titleDetail: 'Одноэтажный',
+  },
+  {
+    className: 'filter-garage',
+    imageSrc: 'assets/images/portfolio/constructions/33.jpg',
+    size: '24,00 м2',
+    title: 'Этажность',
+    titleDetail: 'Одноэтажный',
+  },
+  {
+    className: 'filter-garage',
+    imageSrc: 'assets/images/portfolio/constructions/34.jpg',
+    size: '30 м2',
+    title: 'Этажность',
+    titleDetail: 'Одноэтажный',
+  },
+  {
+    className: 'filter-garage',
+    imageSrc: 'assets/images/portfolio/constructions/35.jpg',
+    size: '30 м2',
+    title: 'Этажность',
+    titleDetail: 'Одноэтажный',
+  },
+  {
+    className: 'filter-warehouse',
+    imageSrc: 'assets/images/portfolio/constructions/36.jpg',
+    size: '3474 x 5474 мм    ',
+    title: 'Дополнительно',
+    titleDetail: '-',
+  },
+  {
+    className: 'filter-warehouse',
+    imageSrc: 'assets/images/portfolio/constructions/37.jpg',
+    size: '3474 x 5474 мм    ',
+    title: 'Дополнительно',
+    titleDetail: '-',
+  },
+  {
+    className: 'filter-sauna',
+    imageSrc: 'assets/images/portfolio/constructions/38.jpg',
+    size: '28,60 м2',
+    title: 'Этажность',
+    titleDetail: 'Одноэтажный',
+  },
+  {
+    className: 'filter-sauna',
+    imageSrc: 'assets/images/portfolio/constructions/39.jpg',
+    size: '76,95 м2 + терраса 32,95 м2    ',
+    title: 'Этажность',
+    titleDetail: 'Одноэтажный',
+  },
+  {
+    className: 'filter-sauna',
+    imageSrc: 'assets/images/portfolio/constructions/40.jpg',
+    size: '22,32 м2    ',
+    title: 'Этажность',
+    titleDetail: 'Одноэтажный',
+  },
+];
+
 (function ($) {
   'use strict';
 
@@ -223,7 +506,48 @@
       return false;
     });
   });
+  function createPortfolioItem(details) {
+    const { imageSrc, className, size, title, titleDetail } = details;
+    var colDiv = $('<div>').addClass(
+      `col-xs-12 col-sm-4 col-md-4 portfolio-item ${className}`
+    );
+    var portfolioImgDiv = $('<div>').addClass('portfolio--img');
+    var divDetails = $('<div>', {
+      class: 'building-details',
+    });
 
+    var pSize = $('<p>').html('<span>Размеры: </span>' + size);
+    var pOther = $('<p>').html(`<span>${title}: </span>` + titleDetail);
+
+    divDetails.append(pSize, pOther);
+
+    var link = $('<a>')
+      .attr('href', '#')
+      .click(function () {
+        window.open(
+          imageSrc,
+          'targetWindow',
+          'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1090px, height=550px, top=25px, left=120px'
+        );
+        return false;
+      });
+    var image = $('<img>').attr('src', imageSrc).attr('alt', 'portfolio image');
+
+    link.append(image);
+
+    portfolioImgDiv.append(divDetails).append(link);
+    colDiv.append(portfolioImgDiv);
+
+    return colDiv;
+  }
+
+  // Usage
+  var portfolioContainer = $('#portfolio-all');
+
+  AllPortfolio.map((portfolioItem) => {
+    console.log(portfolioItem);
+    return portfolioContainer.append(createPortfolioItem(portfolioItem));
+  });
   /* ------------------  SCROLL TO ------------------ */
 
   var aScroll = $('a[data-scroll="scrollTo"]');

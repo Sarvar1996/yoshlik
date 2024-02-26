@@ -2996,6 +2996,14 @@ li a:hover,
 	height: auto;
 }
 
+.portfolio-item .portfolio--img .building-details {
+	position: absolute;
+	left: 5%;
+	top: 5%;
+	z-index: 1;
+	display: none;
+}
+
 /*------------------------------------*\
     #COLOR-SWITCHER
 \*------------------------------------*/
@@ -3164,6 +3172,11 @@ li a:hover,
 	text-align: center;
 }
 
+.portfolio{
+	max-height: 700px;
+	overflow: scroll;
+}
+
 .portfolio-filter ul {
 	text-align: center;
 	margin-bottom: 0;
@@ -3270,6 +3283,7 @@ li a:hover,
 }
 
 .portfolio--img:hover img {
+	opacity: 0.25;
 	-webkit-transform: scale(1.1);
 	-moz-transform: scale(1.1);
 	-o-transform: scale(1.1);
@@ -3281,8 +3295,21 @@ li a:hover,
 	opacity: 0.95;
 }
 
+.portfolio-item .portfolio--img:hover .building-details {
+	position: absolute;
+	left: 5%;
+	top: 15%;
+	z-index: 1;
+	display: block;
+}
+.portfolio-item .portfolio--img:hover .building-details p{
+	color: #000;
+}
+.portfolio-item .portfolio--img:hover .building-details p span{
+	font-weight: bold;
+}
+
 .portfolio--img:hover .portfolio--meta {
-	opacity: 1;
 	-webkit-transform: translateY(0);
 	-moz-transform: translateY(0);
 	-o-transform: translateY(0);
