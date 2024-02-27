@@ -2567,6 +2567,7 @@ li a:hover,
 
 .footer-5 .footer-bar {
 	border-top: 1px solid rgba(255, 255, 255, 0.08);
+	margin-top: 30px;
 }
 
 /* footer #8 */
@@ -3540,7 +3541,15 @@ li a:hover,
 }
 .our-team .team-member .image-box {
     position: relative;
+	border-radius: 50%;
     overflow: hidden;
+}
+.our-team .team-member .image-box2 {
+    position: relative;
+    overflow: hidden;
+}
+.our-team .team-member .image-box i {
+    font-size: 200px;
 }
 .our-team .team-member .text {
     padding: 13px 0;
