@@ -3406,6 +3406,21 @@ li a:hover,
 	margin-right: 5px;
 	padding-right: 15px;
 }
+.portfolio--img img {
+	opacity: 0.5;
+}
+
+.portfolio-item .portfolio--img .building-details {
+	display: block;
+}
+
+.portfolio-item .portfolio--img .building-details p{
+	color: #000;
+}
+
+.portfolio-item .portfolio--img .building-details p span{
+	font-weight: bold;
+}
 }
 
 /*------------------------------
