@@ -1955,8 +1955,9 @@ textarea.form-control {
 		width: 350px;
 	}
 	.info2{
-		height: 150px;
-		width: 350px;
+		padding: 40px 10px;
+		height: 100%;
+		width: 100%;
 	}
 .header .navbar {
 	top: 0;
