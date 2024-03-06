@@ -3538,10 +3538,16 @@ li a:hover,
 .our-team .team-member {
     margin-top: 30px;
     text-align: center;
+	border: 1px solid #eaeaea;
 }
 .our-team .team-member .image-box {
     position: relative;
     overflow: hidden;
+}
+.our-team .team-member .image-box img{
+	height: 100%;
+	min-height: 350px;
+    width: 100%;
 }
 .our-team .team-member .image-box2 {
     position: relative;
@@ -3552,7 +3558,6 @@ li a:hover,
 }
 .our-team .team-member .text {
     padding: 13px 0;
-    border: 1px solid #eaeaea;
     border-top: none;
     border-radius: 0 0 5px 5px;
 }
