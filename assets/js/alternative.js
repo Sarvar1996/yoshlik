@@ -117,4 +117,48 @@
       });
     },
   );
+
+  // ---- brand zoom lightbox ----
+  var lightbox = null;
+  function closeLightbox() {
+    if (lightbox) {
+      lightbox.classList.remove("is-open");
+      setTimeout(function () {
+        if (lightbox && lightbox.parentNode)
+          lightbox.parentNode.removeChild(lightbox);
+        lightbox = null;
+      }, 200);
+    }
+  }
+  Array.prototype.forEach.call(
+    document.querySelectorAll(".alt-brand"),
+    function (brand) {
+      brand.addEventListener("click", function (e) {
+        e.preventDefault();
+        var img = brand.querySelector("img");
+        if (!img) return;
+        lightbox = document.createElement("div");
+        lightbox.className = "alt-lightbox";
+        lightbox.innerHTML =
+          '<div class="alt-lightbox__content"><img src="' +
+          img.src +
+          '" alt="' +
+          img.alt +
+          '" /><button class="alt-lightbox__close" aria-label="Close">×</button></div>';
+        document.body.appendChild(lightbox);
+        setTimeout(function () {
+          if (lightbox) lightbox.classList.add("is-open");
+        }, 10);
+        lightbox
+          .querySelector(".alt-lightbox__close")
+          .addEventListener("click", closeLightbox);
+        lightbox.addEventListener("click", function (evt) {
+          if (evt.target === lightbox) closeLightbox();
+        });
+      });
+    },
+  );
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") closeLightbox();
+  });
 })();
