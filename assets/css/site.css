@@ -133,6 +133,19 @@ textarea {
   display: block;
 }
 
+#feature {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+#footer9 .widget--info-box p {
+  margin-bottom: 0;
+}
+
+#footer9 .widget--info-box p + p {
+  margin-top: 18px;
+}
+
 .hero.hero-12 .hero--headline,
 .hero .hero--headline {
   font-family:
@@ -914,6 +927,11 @@ textarea {
   background: var(--main);
   color: #fff;
   font-size: 16px;
+}
+
+#skills .orgchart__groups .orgchart__staff {
+  align-self: center;
+  margin-top: 0;
 }
 
 #skills .orgchart__staff strong {
