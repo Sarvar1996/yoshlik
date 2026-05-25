@@ -1447,8 +1447,17 @@ a {
     grid-template-columns: 1fr;
   }
 
+  .alt-team__grid {
+    gap: 14px;
+  }
+
   .alt-member {
-    flex: 0 0 100%;
+    flex: 0 0 calc(100% - 14px);
+    max-width: 100%;
+  }
+
+  .alt-member__photo {
+    height: 400px;
   }
 
   .alt-about__list {
