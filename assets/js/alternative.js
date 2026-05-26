@@ -131,11 +131,12 @@
     }
   }
   Array.prototype.forEach.call(
-    document.querySelectorAll(".alt-brand"),
-    function (brand) {
-      brand.addEventListener("click", function (e) {
-        e.preventDefault();
-        var img = brand.querySelector("img");
+    document.querySelectorAll(".alt-brand__zoom"),
+    function (btn) {
+      btn.addEventListener("click", function (e) {
+        e.stopPropagation();
+        var brand = btn.closest(".alt-brand");
+        var img = brand ? brand.querySelector("img") : null;
         if (!img) return;
         lightbox = document.createElement("div");
         lightbox.className = "alt-lightbox";
