@@ -553,6 +553,14 @@
     document.querySelectorAll(".alt-lang__btn").forEach(function (btn) {
       btn.classList.toggle("is-active", btn.getAttribute("data-lang") === lang);
     });
+
+    var pptLink = document.getElementById("alt-ppt-link");
+    if (pptLink) {
+      pptLink.href =
+        lang === "en"
+          ? "assets/files/presentation2.pdf"
+          : "assets/files/presentation.pdf";
+    }
   }
 
   document.querySelectorAll(".alt-lang__btn").forEach(function (btn) {
