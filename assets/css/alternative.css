@@ -208,6 +208,38 @@ a {
   color: #fff;
 }
 
+.alt-lang {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin-left: 8px;
+}
+
+.alt-lang__btn {
+  background: none;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  color: var(--muted);
+  font-family: var(--font);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  padding: 4px 8px;
+  cursor: pointer;
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.alt-lang__btn:hover {
+  color: var(--text);
+}
+
+.alt-lang__btn.is-active {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
 .alt-burger {
   display: none;
   flex-direction: column;

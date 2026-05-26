@@ -23,14 +23,21 @@
           <img src="assets/images/logo/logo-light.png" alt="Yoshlik-Yu" />
         </a>
         <nav class="alt-nav__menu" id="alt-menu">
-          <a href="#advantages">Преимущества</a>
-          <a href="#about">О компании</a>
-          <a href="#channels">Каналы продаж</a>
-          <a href="#brands">Бренды</a>
-          <a href="#team">Команда</a>
-          <a href="#faq">FAQ</a>
-          <a class="alt-btn alt-btn--sm" href="#contact">Связаться</a>
+          <a href="#advantages" data-i18n="nav.advantages">Преимущества</a>
+          <a href="#about" data-i18n="nav.about">О компании</a>
+          <a href="#channels" data-i18n="nav.channels">Каналы продаж</a>
+          <a href="#brands" data-i18n="nav.brands">Бренды</a>
+          <a href="#team" data-i18n="nav.team">Команда</a>
+          <a href="#faq" data-i18n="nav.faq">FAQ</a>
+          <a class="alt-btn alt-btn--sm" href="#contact" data-i18n="nav.contact"
+            >Связаться</a
+          >
         </nav>
+        <div class="alt-lang" id="alt-lang">
+          <button class="alt-lang__btn is-active" data-lang="ru">RU</button>
+          <button class="alt-lang__btn" data-lang="uz">UZ</button>
+          <button class="alt-lang__btn" data-lang="en">EN</button>
+        </div>
         <button class="alt-burger" id="alt-burger" aria-label="Меню">
           <span></span><span></span><span></span>
         </button>
@@ -45,22 +52,43 @@
       ></div>
       <div class="alt-hero__glow"></div>
       <div class="alt-container alt-hero__inner">
-        <span class="alt-eyebrow">Дистрибьюторская компания · с 1991 года</span>
-        <h1 class="alt-hero__title">
+        <span class="alt-eyebrow" data-i18n="hero.eyebrow"
+          >Дистрибьюторская компания · с 1991 года</span
+        >
+        <h1 class="alt-hero__title" data-i18n-html="hero.title">
           Дистрибуция<br /><span>по всему Узбекистану</span>
         </h1>
-        <p class="alt-hero__lead">
+        <p class="alt-hero__lead" data-i18n="hero.lead">
           YOSHLIK-YU - качественная дистрибьюция полного цикла
         </p>
         <div class="alt-hero__cta">
-          <a class="alt-btn" href="#channels">Каналы продаж</a>
-          <a class="alt-btn alt-btn--ghost" href="#contact">Стать партнёром</a>
+          <a class="alt-btn" href="#channels" data-i18n="hero.cta1"
+            >Каналы продаж</a
+          >
+          <a
+            class="alt-btn alt-btn--ghost"
+            href="#contact"
+            data-i18n="hero.cta2"
+            >Стать партнёром</a
+          >
+          <a
+            class="alt-btn alt-btn--ghost"
+            href="assets/files/presentation.pdf"
+            target="_blank"
+            rel="noopener"
+            download
+          >
+            <i class="fa fa-download"></i>
+            <span data-i18n="hero.cta3">Скачать презентацию</span>
+          </a>
         </div>
         <div class="alt-hero__stats">
-          <div><b>35</b><span>лет на рынке</span></div>
-          <div><b>20</b><span>брендов</span></div>
-          <div><b>2000+</b><span>торговых точек</span></div>
-          <div><b>90+</b><span>сотрудников</span></div>
+          <div><b>35</b><span data-i18n="hero.stat1">лет на рынке</span></div>
+          <div><b>20</b><span data-i18n="hero.stat2">брендов</span></div>
+          <div>
+            <b>2000+</b><span data-i18n="hero.stat3">торговых точек</span>
+          </div>
+          <div><b>90+</b><span data-i18n="hero.stat4">сотрудников</span></div>
         </div>
       </div>
       <a class="alt-hero__scroll" href="#numbers" aria-label="Вниз">
@@ -72,41 +100,41 @@
     <section class="alt-section alt-numbers" id="numbers">
       <div class="alt-container">
         <div class="alt-head">
-          <span class="alt-eyebrow">О компании</span>
-          <h2 class="alt-h2">В ЦИФРАХ</h2>
+          <span class="alt-eyebrow">Yoshlik-Yu</span>
+          <h2 class="alt-h2" data-i18n="numbers.h2">В ЦИФРАХ</h2>
         </div>
         <div class="alt-kpi-grid">
           <div class="alt-kpi alt-reveal">
             <b data-count="6000" data-suffix="+">0</b>
-            <span>АКБ — покрытие через партнёров</span>
+            <span data-i18n="numbers.kpi1">АКБ — покрытие через партнёров</span>
           </div>
           <div class="alt-kpi alt-reveal">
             <b data-count="2000" data-suffix="+">0</b>
-            <span>АКБ — прямое покрытие</span>
+            <span data-i18n="numbers.kpi2">АКБ — прямое покрытие</span>
           </div>
           <div class="alt-kpi alt-reveal">
             <b data-count="2070" data-suffix=" м²">0</b>
-            <span>собственные склады</span>
+            <span data-i18n="numbers.kpi3">собственные склады</span>
           </div>
           <div class="alt-kpi alt-reveal">
             <b data-count="490" data-suffix=" м²">0</b>
-            <span>собственные офисы</span>
+            <span data-i18n="numbers.kpi4">собственные офисы</span>
           </div>
           <div class="alt-kpi alt-reveal">
             <b data-count="400" data-suffix="+">0</b>
-            <span>наименований SKU</span>
+            <span data-i18n="numbers.kpi5">наименований SKU</span>
           </div>
           <div class="alt-kpi alt-reveal">
             <b data-count="24">0</b>
-            <span>единиц автопарка</span>
+            <span data-i18n="numbers.kpi6">единиц автопарка</span>
           </div>
           <div class="alt-kpi alt-reveal">
             <b data-count="11">0</b>
-            <span>дилеров</span>
+            <span data-i18n="numbers.kpi7">дилеров</span>
           </div>
           <div class="alt-kpi alt-reveal">
             <b data-count="90" data-suffix="+">0</b>
-            <span>сотрудников</span>
+            <span data-i18n="numbers.kpi8">сотрудников</span>
           </div>
         </div>
       </div>
@@ -116,43 +144,43 @@
     <section class="alt-section alt-advantages" id="advantages">
       <div class="alt-container">
         <div class="alt-head">
-          <span class="alt-eyebrow">Почему мы</span>
-          <h2 class="alt-h2">
+          <span class="alt-eyebrow" data-i18n="adv.eyebrow">Почему мы</span>
+          <h2 class="alt-h2" data-i18n-html="adv.h2">
             Преимущества <span class="alt-nowrap">Yoshlik-Yu</span>
           </h2>
-          <p class="alt-head__sub">
+          <p class="alt-head__sub" data-i18n="adv.sub">
             Причины по которым нам доверяют.
           </p>
         </div>
         <div class="alt-adv__grid">
           <article class="alt-adv alt-reveal">
             <div class="alt-adv__icon"><i class="fa fa-history"></i></div>
-            <h3>35 лет на рынке</h3>
-            <p>
+            <h3 data-i18n="adv1.h3">35 лет на рынке</h3>
+            <p data-i18n="adv1.p">
               Работаем с 1991 года. Глубокое понимание рынка Узбекистана и
               устойчивые связи с ключевыми игроками отрасли.
             </p>
           </article>
           <article class="alt-adv alt-reveal">
             <div class="alt-adv__icon"><i class="fa fa-truck"></i></div>
-            <h3>собственная инфраструктура</h3>
-            <p>
+            <h3 data-i18n="adv2.h3">Собственная инфраструктура</h3>
+            <p data-i18n="adv2.p">
               Автопарк из 24 единиц, склады 2070 м² и офисы 490 м² —
               контролируем каждый этап от приёмки до доставки на полку.
             </p>
           </article>
           <article class="alt-adv alt-reveal">
             <div class="alt-adv__icon"><i class="fa fa-sitemap"></i></div>
-            <h3>КАНАЛЫ ПРОДАЖ</h3>
-            <p>
+            <h3 data-i18n="adv3.h3">КАНАЛЫ ПРОДАЖ</h3>
+            <p data-i18n="adv3.p">
               Key Account, Традиционная розница, Farm, HoReCa, Опт, Fitness and
               Wellness, B2B, E-commerce - охватываем все каналы продаж.
             </p>
           </article>
           <article class="alt-adv alt-reveal">
             <div class="alt-adv__icon"><i class="fa fa-users"></i></div>
-            <h3>Команда экспертов</h3>
-            <p>
+            <h3 data-i18n="adv4.h3">Команда экспертов</h3>
+            <p data-i18n="adv4.p">
               90+ сотрудников охватывающих различные сферы, каналы и специфики
               рынка: менеджеры, супервайзеры, торговые представители,
               категорийные менеджеры, аналитики, менеджеры по работе с
@@ -161,17 +189,17 @@
           </article>
           <article class="alt-adv alt-reveal">
             <div class="alt-adv__icon"><i class="fa fa-shield"></i></div>
-            <h3>Контроль качества</h3>
-            <p>
-              Машины доставки с рефрежераторами, склады с температурными режимами
-              хранения, FIFO и FEFO - учёт на складах, регулируемый аудит
-              торговых точек и партнёрских сетей.
+            <h3 data-i18n="adv5.h3">Контроль качества</h3>
+            <p data-i18n="adv5.p">
+              Машины доставки с рефрежераторами, склады с температурными
+              режимами хранения, FIFO и FEFO - учёт на складах, регулируемый
+              аудит торговых точек и партнёрских сетей.
             </p>
           </article>
           <article class="alt-adv alt-reveal">
             <div class="alt-adv__icon"><i class="fa fa-line-chart"></i></div>
-            <h3>Прозрачная отчётность</h3>
-            <p>
+            <h3 data-i18n="adv6.h3">Прозрачная отчётность</h3>
+            <p data-i18n="adv6.p">
               Ежемесячные отчёты по продажам, остаткам и покрытию в разрезе SKU,
               региона и канала — партнёр видит реальную картину.
             </p>
@@ -184,17 +212,19 @@
     <section class="alt-section alt-about" id="about">
       <div class="alt-container">
         <div class="alt-about__intro alt-reveal">
-          <span class="alt-eyebrow">О компании</span>
-          <h2 class="alt-h2">Дистрибуция, которой доверяют с 1991 года</h2>
+          <span class="alt-eyebrow" data-i18n="about.eyebrow">О компании</span>
+          <h2 class="alt-h2" data-i18n="about.h2">
+            Дистрибуция, которой доверяют с 1991 года
+          </h2>
           <div class="alt-about__body">
-            <p>
+            <p data-i18n="about.p1">
               Мы — современная дистрибьюторская компания, специализирующаяся на
               продвижении и развитии брендов на рынке Узбекистана. Наша
               деятельность охватывает полный цикл дистрибуции: от импорта и
               логистики до продаж, маркетинга и построения эффективной системы
               представленности продукции в ключевых каналах сбыта.
             </p>
-            <p>
+            <p data-i18n="about.p2">
               Компания сотрудничает с международными производителями,
               обеспечивая качественное покрытие рынка через развитую партнёрскую
               сеть, профессиональную команду продаж и современные инструменты
@@ -202,28 +232,27 @@
               традиционной розницей, HoReCa, фитнес-центрами и e-commerce
               каналами.
             </p>
-            <h3 class="alt-about__bodyhead">
+            <h3 class="alt-about__bodyhead" data-i18n="about.bodyhead">
               Основные направления нашей работы
             </h3>
             <ul class="alt-about__list">
-              <li>Дистрибуция FMCG-продукции</li>
-              <li>Продвижение брендов и развитие продаж</li>
-              <li>Трейд-маркетинг и мерчандайзинг</li>
-              <li>Логистика и складская инфраструктура</li>
-              <li>Запуск и масштабирование новых брендов на рынке</li>
-              <li>
+              <li data-i18n="about.li1">Дистрибуция FMCG-продукции</li>
+              <li data-i18n="about.li2">
+                Продвижение брендов и развитие продаж
+              </li>
+              <li data-i18n="about.li3">Трейд-маркетинг и мерчандайзинг</li>
+              <li data-i18n="about.li4">
+                Логистика и складская инфраструктура
+              </li>
+              <li data-i18n="about.li5">
+                Запуск и масштабирование новых брендов на рынке
+              </li>
+              <li data-i18n="about.li6">
                 Построение долгосрочных партнёрских отношений с клиентами и
                 поставщиками
               </li>
             </ul>
-            <p>
-              Мы ориентированы на прозрачное сотрудничество, высокие стандарты
-              сервиса и устойчивый рост бизнеса наших партнёров. Благодаря
-              глубокому пониманию локального рынка, сильной команде и гибкому
-              подходу, компания успешно развивает бренды и обеспечивает
-              стабильное присутствие продукции в различных регионах страны.
-            </p>
-            <p class="alt-about__goal">
+            <p class="alt-about__goal" data-i18n="about.goal">
               Наша цель — быть надёжным стратегическим партнёром для
               производителей и создавать эффективную систему продаж,
               обеспечивающую рост, узнаваемость и долгосрочный успех брендов.
@@ -243,7 +272,9 @@
               </div>
               <span class="alt-tl__dot"></span>
               <div class="alt-tl__year">1991</div>
-              <div class="alt-tl__caption">Основание строительной компании</div>
+              <div class="alt-tl__caption" data-i18n="tl.1991">
+                Основание строительной компании
+              </div>
             </li>
             <li class="alt-tl__item" style="--tl-i: 1">
               <div class="alt-tl__logos">
@@ -257,7 +288,9 @@
               </div>
               <span class="alt-tl__dot"></span>
               <div class="alt-tl__year">2017</div>
-              <div class="alt-tl__caption">Запуск дистрибуции</div>
+              <div class="alt-tl__caption" data-i18n="tl.2017">
+                Запуск дистрибуции
+              </div>
             </li>
             <li class="alt-tl__item" style="--tl-i: 2">
               <div class="alt-tl__logos">
@@ -278,11 +311,13 @@
               </div>
               <span class="alt-tl__dot"></span>
               <div class="alt-tl__year">2019</div>
-              <div class="alt-tl__caption">Расширение Non-Food</div>
+              <div class="alt-tl__caption" data-i18n="tl.2019">
+                Расширение Non-Food
+              </div>
             </li>
             <li class="alt-tl__item" style="--tl-i: 3">
               <div class="alt-tl__logos">
-                <div class="alt-tl__card ">
+                <div class="alt-tl__card">
                   <img
                     loading="lazy"
                     src="assets/images/partners/6.png"
@@ -292,11 +327,13 @@
               </div>
               <span class="alt-tl__dot"></span>
               <div class="alt-tl__year">2020</div>
-              <div class="alt-tl__caption">Косметика и бытовая химия</div>
+              <div class="alt-tl__caption" data-i18n="tl.2020">
+                Косметика и бытовая химия
+              </div>
             </li>
             <li class="alt-tl__item" style="--tl-i: 4">
               <div class="alt-tl__logos">
-                <div class="alt-tl__card ">
+                <div class="alt-tl__card">
                   <img
                     loading="lazy"
                     src="assets/images/portfolio/SnaqFabriq2 - black.png"
@@ -320,7 +357,9 @@
               </div>
               <span class="alt-tl__dot"></span>
               <div class="alt-tl__year">2022</div>
-              <div class="alt-tl__caption">Спортивное питание и снеки</div>
+              <div class="alt-tl__caption" data-i18n="tl.2022">
+                Спортивное питание и снеки
+              </div>
             </li>
             <li class="alt-tl__item" style="--tl-i: 5">
               <div class="alt-tl__logos">
@@ -328,20 +367,22 @@
                   <img
                     loading="lazy"
                     src="assets/images/partners/20.png"
-                    alt="CMM4"
+                    alt="Сила"
                   />
                 </div>
                 <div class="alt-tl__card">
                   <img
                     loading="lazy"
-                    src="assets/images/partners/5.png"
-                    alt="Пищевые комбинаты"
+                    src="assets/images/partners/22.png"
+                    alt="Вокруг света"
                   />
                 </div>
               </div>
               <span class="alt-tl__dot"></span>
               <div class="alt-tl__year">2023</div>
-              <div class="alt-tl__caption">Food-категория</div>
+              <div class="alt-tl__caption" data-i18n="tl.2023">
+                Food-категория
+              </div>
             </li>
             <li class="alt-tl__item" style="--tl-i: 6">
               <div class="alt-tl__logos">
@@ -355,7 +396,9 @@
               </div>
               <span class="alt-tl__dot"></span>
               <div class="alt-tl__year">2024</div>
-              <div class="alt-tl__caption">Премиум-сегмент</div>
+              <div class="alt-tl__caption" data-i18n="tl.2024">
+                Премиум-сегмент
+              </div>
             </li>
             <li class="alt-tl__item alt-tl__item--final" style="--tl-i: 7">
               <div class="alt-tl__logos">
@@ -391,7 +434,7 @@
               <div class="alt-fdp__head">
                 <span class="alt-fdp__badge">2025</span>
                 <h3 class="alt-fdp__title">Fitness Pro Distribution</h3>
-                <p class="alt-fdp__subtitle">
+                <p class="alt-fdp__subtitle" data-i18n="tl.fdp">
                   Создание второго дивизиона и направления
                 </p>
               </div>
@@ -431,7 +474,7 @@
                     alt="Avocado"
                   />
                 </div>
-                <div class="alt-tl__card " style="--tl-i: 5">
+                <div class="alt-tl__card" style="--tl-i: 5">
                   <img
                     loading="lazy"
                     src="assets/images/portfolio/SnaqFabriq2 - black.png"
@@ -463,9 +506,11 @@
     <section class="alt-section alt-channels" id="channels">
       <div class="alt-container">
         <div class="alt-head">
-          <span class="alt-eyebrow">НАПРАВЛЕНИЯ ДИСТРИБЬЮЦИИ</span>
-          <h2 class="alt-h2">ВСЕ КАНАЛЫ ПРОДАЖ</h2>
-          <p class="alt-head__sub">
+          <span class="alt-eyebrow" data-i18n="ch.eyebrow"
+            >НАПРАВЛЕНИЯ ДИСТРИБЬЮЦИИ</span
+          >
+          <h2 class="alt-h2" data-i18n="ch.h2">ВСЕ КАНАЛЫ ПРОДАЖ</h2>
+          <p class="alt-head__sub" data-i18n="ch.sub">
             Дистрибуция Yoshlik-Yu охватывает все ключевые каналы рынка.
           </p>
         </div>
@@ -474,39 +519,47 @@
             <span class="alt-channel__no">01</span>
             <div class="alt-channel__icon"><i class="fa fa-medkit"></i></div>
             <h3>Farm</h3>
-            <p>Аптечный канал — поставки в аптечные сети и точки.</p>
+            <p data-i18n="ch1.p">
+              Аптечный канал — поставки в аптечные сети и точки.
+            </p>
           </article>
           <article class="alt-channel alt-reveal">
             <span class="alt-channel__no">02</span>
             <div class="alt-channel__icon"><i class="fa fa-building"></i></div>
             <h3>Key Account</h3>
-            <p>Контракты с крупными сетями страны.</p>
+            <p data-i18n="ch2.p">Контракты с крупными сетями страны.</p>
           </article>
           <article class="alt-channel alt-reveal">
             <span class="alt-channel__no">03</span>
             <div class="alt-channel__icon">
               <i class="fa fa-shopping-basket"></i>
             </div>
-            <h3>Розница</h3>
-            <p>Tr-trade — покрытие розничных торговых точек по всей стране.</p>
+            <h3 data-i18n="ch3.h3">Розница</h3>
+            <p data-i18n="ch3.p">
+              Tr-trade — покрытие розничных торговых точек по всей стране.
+            </p>
           </article>
           <article class="alt-channel alt-reveal">
             <span class="alt-channel__no">04</span>
             <div class="alt-channel__icon"><i class="fa fa-cutlery"></i></div>
             <h3>HoReCa</h3>
-            <p>ON-TRADE - кофейни, рестораны и кафе, гостиницы и фуд-корты</p>
+            <p data-i18n="ch4.p">
+              ON-TRADE - кофейни, рестораны и кафе, гостиницы и фуд-корты
+            </p>
           </article>
           <article class="alt-channel alt-reveal">
             <span class="alt-channel__no">05</span>
             <div class="alt-channel__icon"><i class="fa fa-cubes"></i></div>
-            <h3>Опт</h3>
-            <p>Крупнооптовые поставки суб-дистрибьюторам и партнёрам.</p>
+            <h3 data-i18n="ch5.h3">Опт</h3>
+            <p data-i18n="ch5.p">
+              Крупнооптовые поставки суб-дистрибьюторам и партнёрам.
+            </p>
           </article>
           <article class="alt-channel alt-reveal">
             <span class="alt-channel__no">06</span>
             <div class="alt-channel__icon"><i class="fa fa-heartbeat"></i></div>
             <h3>Fitness</h3>
-            <p>
+            <p data-i18n="ch6.p">
               Фитнесс центры и спортивные клубы, магазины здорового и
               спортивного питания.
             </p>
@@ -517,12 +570,16 @@
               <i class="fa fa-shopping-cart"></i>
             </div>
             <h3>E-commerce</h3>
-            <p>Дистрибуция через маркетплейсы и интернет-магазины.</p>
+            <p data-i18n="ch7.p">
+              Дистрибуция через маркетплейсы и интернет-магазины.
+            </p>
           </article>
           <article class="alt-channel alt-channel--cta alt-reveal">
-            <h3>Ваш канал?</h3>
-            <p>Подберём схему дистрибуции под ваш продукт.</p>
-            <a class="alt-btn alt-btn--sm" href="#contact">Обсудить</a>
+            <h3 data-i18n="ch8.h3">Ваш канал?</h3>
+            <p data-i18n="ch8.p">Подберём схему дистрибуции под ваш продукт.</p>
+            <a class="alt-btn alt-btn--sm" href="#contact" data-i18n="ch8.cta"
+              >Обсудить</a
+            >
           </article>
         </div>
       </div>
@@ -532,9 +589,9 @@
     <section class="alt-section alt-process" id="process">
       <div class="alt-container">
         <div class="alt-head">
-          <span class="alt-eyebrow">Партнёрство</span>
-          <h2 class="alt-h2">Как мы работаем</h2>
-          <p class="alt-head__sub">
+          <span class="alt-eyebrow" data-i18n="proc.eyebrow">Партнёрство</span>
+          <h2 class="alt-h2" data-i18n="proc.h2">Как мы работаем</h2>
+          <p class="alt-head__sub" data-i18n="proc.sub">
             Понятный процесс запуска дистрибуции — от первого контакта до
             ежемесячных отчётов.
           </p>
@@ -542,9 +599,11 @@
         <div class="alt-process__grid">
           <article class="alt-step alt-reveal">
             <span class="alt-step__no">01</span>
-            <h3>Знакомство и аудит</h3>
-            <span class="alt-step__time">1–2 недели</span>
-            <p>
+            <h3 data-i18n="proc1.h3">Знакомство и аудит</h3>
+            <span class="alt-step__time" data-i18n="proc1.time"
+              >1–2 недели</span
+            >
+            <p data-i18n="proc1.p">
               Изучаем ваш продукт, текущее присутствие на рынке, делаем расчет
               ценовой модели, определяем конкурентов, проводим аудит и делаем
               сравнение.
@@ -552,18 +611,20 @@
           </article>
           <article class="alt-step alt-reveal">
             <span class="alt-step__no">02</span>
-            <h3>План дистрибуции</h3>
-            <span class="alt-step__time">1 неделя</span>
-            <p>
+            <h3 data-i18n="proc2.h3">План дистрибуции</h3>
+            <span class="alt-step__time" data-i18n="proc2.time">1 неделя</span>
+            <p data-i18n="proc2.p">
               1-2 недели Запрашиваем образцы, подбираем каналы продаж,
               предоставляем предложение своим партнёрам.
             </p>
           </article>
           <article class="alt-step alt-reveal">
             <span class="alt-step__no">03</span>
-            <h3>Запуск</h3>
-            <span class="alt-step__time">2–4 недели</span>
-            <p>
+            <h3 data-i18n="proc3.h3">Запуск</h3>
+            <span class="alt-step__time" data-i18n="proc3.time"
+              >2–4 недели</span
+            >
+            <p data-i18n="proc3.p">
               Согласовываем ассортимент, планы, цели, стратегию запуска,
               размещаем заказ, проводим обучение для торговой команды, после
               поступления товара на склад начинаем активные продажи.
@@ -571,9 +632,9 @@
           </article>
           <article class="alt-step alt-reveal">
             <span class="alt-step__no">04</span>
-            <h3>Развитие</h3>
-            <span class="alt-step__time">постоянно</span>
-            <p>
+            <h3 data-i18n="proc4.h3">Развитие</h3>
+            <span class="alt-step__time" data-i18n="proc4.time">постоянно</span>
+            <p data-i18n="proc4.p">
               Ежемесячная отчётность, совместный маркетинг, расширение покрытия
               и оптимизация ассортимента по данным продаж.
             </p>
@@ -586,9 +647,9 @@
     <section class="alt-section alt-brands" id="brands">
       <div class="alt-container">
         <div class="alt-head">
-          <span class="alt-eyebrow">Портфель</span>
-          <h2 class="alt-h2">20 брендов</h2>
-          <p class="alt-head__sub">
+          <span class="alt-eyebrow" data-i18n="brands.eyebrow">Портфель</span>
+          <h2 class="alt-h2" data-i18n="brands.h2">20 брендов</h2>
+          <p class="alt-head__sub" data-i18n="brands.sub">
             FOOD и NON-FOOD бренды, дистрибьюцией которых мы занимаемся на рынке
             Узбекистана.
           </p>
@@ -596,67 +657,174 @@
         <!-- TODO: swap each href="#contact" for the brand's official site once provided. -->
         <div class="alt-brands__grid">
           <a class="alt-brand alt-reveal" href="#contact" title="DRY DRY">
-            <img loading="lazy" src="assets/images/partners/4.png" alt="DRY DRY" />
+            <img
+              loading="lazy"
+              src="assets/images/partners/4.png"
+              alt="DRY DRY"
+            />
           </a>
           <a class="alt-brand alt-reveal" href="#contact" title="NOW Foods">
-            <img loading="lazy" src="assets/images/partners/7.png" alt="NOW Foods" />
+            <img
+              loading="lazy"
+              src="assets/images/partners/7.png"
+              alt="NOW Foods"
+            />
           </a>
-          <a class="alt-brand alt-reveal" href="#contact" title="Зеленая Дубрава">
-            <img loading="lazy" src="assets/images/partners/9.png" alt="Зеленая Дубрава" />
+          <a
+            class="alt-brand alt-reveal"
+            href="#contact"
+            title="Зеленая Дубрава"
+          >
+            <img
+              loading="lazy"
+              src="assets/images/partners/9.png"
+              alt="Зеленая Дубрава"
+            />
           </a>
-          <a class="alt-brand alt-reveal" href="#contact" title="Невская Косметика">
-            <img loading="lazy" src="assets/images/partners/6.png" alt="Невская Косметика" />
+          <a
+            class="alt-brand alt-reveal"
+            href="#contact"
+            title="Невская Косметика"
+          >
+            <img
+              loading="lazy"
+              src="assets/images/partners/6.png"
+              alt="Невская Косметика"
+            />
           </a>
-          <a class="alt-brand alt-reveal" href="#contact" title="Пищевые комбинаты">
-            <img loading="lazy" src="assets/images/partners/5.png" alt="Пищевые комбинаты" />
+          <a
+            class="alt-brand alt-reveal"
+            href="#contact"
+            title="Пищевые комбинаты"
+          >
+            <img
+              loading="lazy"
+              src="assets/images/partners/5.png"
+              alt="Пищевые комбинаты"
+            />
           </a>
           <a class="alt-brand alt-reveal" href="#contact" title="SNAQ FABRIQ">
-            <img loading="lazy" src="assets/images/portfolio/SnaqFabriq2 - black.png" alt="SNAQ FABRIQ" />
+            <img
+              loading="lazy"
+              src="assets/images/portfolio/SnaqFabriq2 - black.png"
+              alt="SNAQ FABRIQ"
+            />
           </a>
           <a class="alt-brand alt-reveal" href="#contact" title="BombBar">
-            <img loading="lazy" src="assets/images/partners/2.png" alt="BombBar" />
+            <img
+              loading="lazy"
+              src="assets/images/partners/2.png"
+              alt="BombBar"
+            />
           </a>
           <a class="alt-brand alt-reveal" href="#contact" title="CHIKALAB">
-            <img loading="lazy" src="assets/images/partners/3.png" alt="CHIKALAB" />
+            <img
+              loading="lazy"
+              src="assets/images/partners/3.png"
+              alt="CHIKALAB"
+            />
           </a>
           <a class="alt-brand alt-reveal" href="#contact" title="CCC4">
-            <img loading="lazy" src="assets/images/partners/20.png" alt="CCC4" />
+            <img
+              loading="lazy"
+              src="assets/images/partners/20.png"
+              alt="CCC4"
+            />
           </a>
           <a class="alt-brand alt-reveal" href="#contact" title="ZAKI">
-            <img loading="lazy" src="assets/images/partners/11.png" alt="ZAKI" />
+            <img
+              loading="lazy"
+              src="assets/images/partners/11.png"
+              alt="ZAKI"
+            />
           </a>
-          <a class="alt-brand alt-reveal" href="#contact" title="ChildLife Essentials">
-            <img loading="lazy" src="assets/images/partners/16.png" alt="ChildLife Essentials" />
+          <a
+            class="alt-brand alt-reveal"
+            href="#contact"
+            title="ChildLife Essentials"
+          >
+            <img
+              loading="lazy"
+              src="assets/images/partners/16.png"
+              alt="ChildLife Essentials"
+            />
           </a>
-          <a class="alt-brand alt-reveal" href="#contact" title="Life Extension">
-            <img loading="lazy" src="assets/images/portfolio/life-extension.png" alt="Life Extension" />
+          <a
+            class="alt-brand alt-reveal"
+            href="#contact"
+            title="Life Extension"
+          >
+            <img
+              loading="lazy"
+              src="assets/images/portfolio/life-extension.png"
+              alt="Life Extension"
+            />
           </a>
           <a class="alt-brand alt-reveal" href="#contact" title="ECOVITA">
-            <img loading="lazy" src="assets/images/partners/15.png" alt="ECOVITA" />
+            <img
+              loading="lazy"
+              src="assets/images/partners/15.png"
+              alt="ECOVITA"
+            />
           </a>
-          <a class="alt-brand alt-reveal" href="#contact" title="California Gold Nutrition">
-            <img loading="lazy" src="assets/images/partners/19.png" alt="California Gold Nutrition" />
+          <a
+            class="alt-brand alt-reveal"
+            href="#contact"
+            title="California Gold Nutrition"
+          >
+            <img
+              loading="lazy"
+              src="assets/images/partners/19.png"
+              alt="California Gold Nutrition"
+            />
           </a>
 
           <a class="alt-brand alt-reveal" href="#contact" title="Natures Plus">
-            <img loading="lazy" src="assets/images/partners/21.png" alt="Natures Plus" />
+            <img
+              loading="lazy"
+              src="assets/images/partners/21.png"
+              alt="Natures Plus"
+            />
           </a>
-         <a class="alt-brand alt-reveal" href="#contact" title="fitness SHOCK">
-            <img loading="lazy" src="assets/images/partners/17.png" alt="fitness SHOCK" />
+          <a class="alt-brand alt-reveal" href="#contact" title="fitness SHOCK">
+            <img
+              loading="lazy"
+              src="assets/images/partners/17.png"
+              alt="fitness SHOCK"
+            />
           </a>
-         <a class="alt-brand alt-reveal" href="#contact" title="r.a.w.life">
-            <img loading="lazy" src="assets/images/partners/14.png" alt="r.a.w.life" />
+          <a class="alt-brand alt-reveal" href="#contact" title="r.a.w.life">
+            <img
+              loading="lazy"
+              src="assets/images/partners/14.png"
+              alt="r.a.w.life"
+            />
           </a>
-        <a class="alt-brand alt-reveal" href="#contact" title="protein REX">
-            <img loading="lazy" src="assets/images/partners/18.png" alt="protein REX" />
+          <a class="alt-brand alt-reveal" href="#contact" title="protein REX">
+            <img
+              loading="lazy"
+              src="assets/images/partners/18.png"
+              alt="protein REX"
+            />
           </a>
-        <a class="alt-brand alt-reveal" href="#contact" title="Fitness Food Factory">
-            <img loading="lazy" src="assets/images/partners/13.png" alt="Fitness Food Factory" />
+          <a
+            class="alt-brand alt-reveal"
+            href="#contact"
+            title="Fitness Food Factory"
+          >
+            <img
+              loading="lazy"
+              src="assets/images/partners/13.png"
+              alt="Fitness Food Factory"
+            />
           </a>
-        <a class="alt-brand alt-reveal" href="#contact" title="Avocado">
-            <img loading="lazy" src="assets/images/partners/12.png" alt="Avocado" />
+          <a class="alt-brand alt-reveal" href="#contact" title="Avocado">
+            <img
+              loading="lazy"
+              src="assets/images/partners/12.png"
+              alt="Avocado"
+            />
           </a>
-         
         </div>
       </div>
     </section>
@@ -665,8 +833,8 @@
     <section class="alt-section alt-team" id="team">
       <div class="alt-container">
         <div class="alt-head">
-          <span class="alt-eyebrow">Команда</span>
-          <h2 class="alt-h2">Руководство компании</h2>
+          <span class="alt-eyebrow" data-i18n="team.eyebrow">Команда</span>
+          <h2 class="alt-h2" data-i18n="team.h2">Руководство компании</h2>
         </div>
         <div class="alt-team__grid">
           <article class="alt-member alt-reveal">
@@ -677,8 +845,10 @@
                 alt="Юсупов Анвар Ганиевич"
               />
             </div>
-            <h3>Юсупов Анвар Ганиевич</h3>
-            <span class="alt-member__role">Генеральный директор</span>
+            <h3 data-i18n="member1.name">Юсупов Анвар Ганиевич</h3>
+            <span class="alt-member__role" data-i18n="role.ceo"
+              >Генеральный директор</span
+            >
             <a class="alt-member__contact" href="tel:+998909938878"
               >+998 90 993 88 78</a
             >
@@ -691,8 +861,10 @@
                 alt="Юсупов Дамir Анварович"
               />
             </div>
-            <h3>Юсупов Дамир Анварович</h3>
-            <span class="alt-member__role">Коммерческий директор</span>
+            <h3 data-i18n="member2.name">Юсупов Дамир Анварович</h3>
+            <span class="alt-member__role" data-i18n="role.cco"
+              >Коммерческий директор</span
+            >
             <a class="alt-member__contact" href="tel:+998935551655"
               >+998 93 555 16 55</a
             >
@@ -705,8 +877,10 @@
                 alt="Бурханов Зокир Мухаммадиевич"
               />
             </div>
-            <h3>Бурханов Зокир Мухаммадиевич</h3>
-            <span class="alt-member__role">Производство и строительство</span>
+            <h3 data-i18n="member3.name">Бурханов Зокир Мухаммадиевич</h3>
+            <span class="alt-member__role" data-i18n="role.production"
+              >Производство и строительство</span
+            >
             <a class="alt-member__contact" href="tel:+998974282854"
               >+998 97 428 28 54</a
             >
@@ -719,8 +893,10 @@
                 alt="Сагайдак Александр Станиславович"
               />
             </div>
-            <h3>Сагайдак Александр Станиславович</h3>
-            <span class="alt-member__role">Руководитель отдела продаж</span>
+            <h3 data-i18n="member4.name">Сагайдак Александр Станиславович</h3>
+            <span class="alt-member__role" data-i18n="role.sales"
+              >Руководитель отдела продаж</span
+            >
             <a class="alt-member__contact" href="tel:+998936780603"
               >+998 93 678 06 03</a
             >
@@ -733,8 +909,10 @@
                 alt="Мавланкулов Джавохир"
               />
             </div>
-            <h3>Мавланкулов Джавохир</h3>
-            <span class="alt-member__role">Менеджер NON FOOD направления</span>
+            <h3 data-i18n="member5.name">Мавланкулов Джавохир</h3>
+            <span class="alt-member__role" data-i18n="role.nonfood"
+              >Менеджер NON FOOD направления</span
+            >
             <a class="alt-member__contact" href="tel:+998909753700"
               >+998 90 975 37 00</a
             >
@@ -747,8 +925,10 @@
                 alt="Гафуров Анвар"
               />
             </div>
-            <h3>Гафуров Анвар</h3>
-            <span class="alt-member__role">Менеджер FOOD направления</span>
+            <h3 data-i18n="member6.name">Гафуров Анвар</h3>
+            <span class="alt-member__role" data-i18n="role.food"
+              >Менеджер FOOD направления</span
+            >
             <a class="alt-member__contact" href="tel:+998909180911"
               >+998 90 918 09 11</a
             >
@@ -761,10 +941,10 @@
                 alt="Ким Владимир"
               />
             </div>
-            <h3>Ким Владимир</h3>
-            <span class="alt-member__role">
-              Менеджер по работе с ключевыми клиентами
-            </span>
+            <h3 data-i18n="member7.name">Ким Владимир</h3>
+            <span class="alt-member__role" data-i18n="role.key"
+              >Менеджер по работе с ключевыми клиентами</span
+            >
             <a class="alt-member__contact" href="tel:+998909981192"
               >+998 90 998 11 92</a
             >
@@ -777,17 +957,21 @@
     <section class="alt-section alt-faq" id="faq">
       <div class="alt-container">
         <div class="alt-head">
-          <span class="alt-eyebrow">Вопросы и ответы</span>
-          <h2 class="alt-h2">Частые вопросы партнёров</h2>
+          <span class="alt-eyebrow" data-i18n="faq.eyebrow"
+            >Вопросы и ответы</span
+          >
+          <h2 class="alt-h2" data-i18n="faq.h2">Частые вопросы партнёров</h2>
         </div>
         <div class="alt-faq__list">
           <div class="alt-faq__item alt-reveal">
             <button class="alt-faq__q" type="button" aria-expanded="false">
-              <span>С какими брендами и категориями вы работаете?</span>
+              <span data-i18n="faq1.q"
+                >С какими брендами и категориями вы работаете?</span
+              >
               <i class="fa fa-plus"></i>
             </button>
             <div class="alt-faq__a">
-              <p>
+              <p data-i18n="faq1.a">
                 В портфеле 19 брендов в категориях Food и Non-Food: спортивное
                 питание, снеки, БАДы, детское питание, косметика и бытовая
                 химия. Открыты к рассмотрению новых брендов.
@@ -796,11 +980,13 @@
           </div>
           <div class="alt-faq__item alt-reveal">
             <button class="alt-faq__q" type="button" aria-expanded="false">
-              <span>Работаете ли вы по всей территории Узбекистана?</span>
+              <span data-i18n="faq2.q"
+                >Работаете ли вы по всей территории Узбекистана?</span
+              >
               <i class="fa fa-plus"></i>
             </button>
             <div class="alt-faq__a">
-              <p>
+              <p data-i18n="faq2.a">
                 Да. Прямое покрытие — 2000+ торговых точек, через партнёрскую
                 сеть — 6000+ точек во всех регионах страны: Ташкент, Самарканд,
                 Бухара, Фергана, Андижан, Наманган, Нукус, Термез и другие.
@@ -809,11 +995,11 @@
           </div>
           <div class="alt-faq__item alt-reveal">
             <button class="alt-faq__q" type="button" aria-expanded="false">
-              <span>Как стать вашим партнёром?</span>
+              <span data-i18n="faq3.q">Как стать вашим партнёром?</span>
               <i class="fa fa-plus"></i>
             </button>
             <div class="alt-faq__a">
-              <p>
+              <p data-i18n="faq3.a">
                 Отправьте заявку через форму контактов или напишите на почту — в
                 течение 3 рабочих дней мы свяжемся, проведём первичный аудит и
                 предложим план дистрибуции под ваш продукт.
@@ -822,11 +1008,13 @@
           </div>
           <div class="alt-faq__item alt-reveal">
             <button class="alt-faq__q" type="button" aria-expanded="false">
-              <span>Какие условия и форматы сотрудничества?</span>
+              <span data-i18n="faq4.q"
+                >Какие условия и форматы сотрудничества?</span
+              >
               <i class="fa fa-plus"></i>
             </button>
             <div class="alt-faq__a">
-              <p>
+              <p data-i18n="faq4.a">
                 Работаем как по модели эксклюзивной дистрибуции, так и по модели
                 импорт-партнёра. Условия — выкуп товара, отсрочка, консигнация —
                 обсуждаются индивидуально под объём и категорию.
@@ -835,11 +1023,13 @@
           </div>
           <div class="alt-faq__item alt-reveal">
             <button class="alt-faq__q" type="button" aria-expanded="false">
-              <span>Как выглядит отчётность для партнёра?</span>
+              <span data-i18n="faq5.q"
+                >Как выглядит отчётность для партнёра?</span
+              >
               <i class="fa fa-plus"></i>
             </button>
             <div class="alt-faq__a">
-              <p>
+              <p data-i18n="faq5.a">
                 Ежемесячно предоставляем отчёт по продажам, остаткам, ротации
                 SKU и покрытию в разрезе канала и региона. Доступ к дашборду — в
                 режиме реального времени.
@@ -848,11 +1038,13 @@
           </div>
           <div class="alt-faq__item alt-reveal">
             <button class="alt-faq__q" type="button" aria-expanded="false">
-              <span>Есть ли у вас собственная логистика?</span>
+              <span data-i18n="faq6.q"
+                >Есть ли у вас собственная логистика?</span
+              >
               <i class="fa fa-plus"></i>
             </button>
             <div class="alt-faq__a">
-              <p>
+              <p data-i18n="faq6.a">
                 Да. 2070 м² собственных складов в Ташкенте, автопарк из 24
                 единиц, включая рефрижераторы. Это позволяет контролировать
                 сроки, температурный режим и сохранность товара.
@@ -867,34 +1059,42 @@
     <section class="alt-section alt-contact" id="contact">
       <div class="alt-container">
         <div class="alt-cta alt-reveal">
-          <span class="alt-eyebrow">Сотрудничество</span>
-          <h2 class="alt-h2">Стать партнёром.</h2>
-          <p>Свяжитесь с нами - обсудим возможности сотрудничества.</p>
+          <span class="alt-eyebrow" data-i18n="contact.eyebrow"
+            >Сотрудничество</span
+          >
+          <h2 class="alt-h2" data-i18n="contact.h2">Стать партнёром.</h2>
+          <p data-i18n="contact.p">
+            Свяжитесь с нами - обсудим возможности сотрудничества.
+          </p>
           <div class="alt-hero__cta">
             <a class="alt-btn" href="tel:+998712775962">+998 93 555 16 55</a>
             <a
               class="alt-btn alt-btn--ghost"
               href="mailto:yoshlik-yu@yandex.com"
-              >Написать на почту</a
+              ><span data-i18n="contact.email_btn">Написать на почту</span></a
             >
           </div>
         </div>
         <div class="alt-contact__grid">
           <div class="alt-contact__card alt-reveal">
             <i class="fa fa-map-marker"></i>
-            <h4>Адрес</h4>
-            <p>г. Ташкент,<br />ул. Чиланзарская, 83</p>
-            <p>г. Ташкент,<br />ул. Олтин Топган, 25А</p>
+            <h4 data-i18n="contact.addr_h">Адрес</h4>
+            <p data-i18n-html="contact.addr1">
+              г. Ташкент,<br />ул. Чиланзарская, 83
+            </p>
+            <p data-i18n-html="contact.addr2">
+              г. Ташкент,<br />ул. Олтин Топган, 25А
+            </p>
           </div>
           <div class="alt-contact__card alt-reveal">
             <i class="fa fa-phone"></i>
-            <h4>Телефон</h4>
+            <h4 data-i18n="contact.phone_h">Телефон</h4>
             <p><a href="tel:+998712775962">+998 71 277 59 62</a></p>
             <p><a href="tel:+998935551655">+998 93 555 16 55</a></p>
           </div>
           <div class="alt-contact__card alt-reveal">
             <i class="fa fa-envelope-o"></i>
-            <h4>Почта</h4>
+            <h4 data-i18n="contact.email_h">Почта</h4>
             <p>
               <a href="mailto:Yoshlik.yu25@mail.ru">Yoshlik.yu25@mail.ru</a>
             </p>
@@ -907,11 +1107,14 @@
       <footer class="alt-footer">
         <div class="alt-container alt-footer__inner">
           <img src="assets/images/logo/logo-light.png" alt="Yoshlik-Yu" />
-          <span>© Yoshlik-Yu 2026 · Дистрибуция в Узбекистане</span>
+          <span data-i18n="footer.copy"
+            >© Yoshlik-Yu 2026 · Дистрибуция в Узбекистане</span
+          >
         </div>
       </footer>
     </section>
 
     <script src="assets/js/alternative.js"></script>
+    <script src="assets/js/i18n.js"></script>
   </body>
 </html>
