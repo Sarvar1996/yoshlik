@@ -78,7 +78,8 @@
       'tl.2020': 'Косметика и бытовая химия',
       'tl.2022': 'Спортивное питание и снеки',
       'tl.2023': 'Food-категория',
-      'tl.2024': 'Премиум-сегмент',
+      'tl.2024': 'Напитки',
+      'tl.2025': 'Витамины',
       'tl.fdp': 'Создание второго дивизиона и направления',
 
       'ch.eyebrow': 'НАПРАВЛЕНИЯ ДИСТРИБЬЮЦИИ',
@@ -252,7 +253,8 @@
       'tl.2020': 'Kosmetika va maishiy kimyo',
       'tl.2022': 'Sport ovqatlanish va sneklar',
       'tl.2023': 'Food kategoriyasi',
-      'tl.2024': 'Premium segment',
+      'tl.2024': 'Ichimliklar',
+      'tl.2025': 'Vitaminlar',
       'tl.fdp': "Ikkinchi divizion va yo'nalish yaratildi",
 
       'ch.eyebrow': "DISTRIBYUTSIYA YO'NALISHLARI",
@@ -431,6 +433,7 @@
       'tl.2022': 'Sports nutrition and snacks',
       'tl.2023': 'Food category',
       'tl.2024': 'Premium segment',
+      'tl.2025': 'Vitamins',
       'tl.fdp': 'Second division and direction created',
 
       'ch.eyebrow': 'DISTRIBUTION DIRECTIONS',
